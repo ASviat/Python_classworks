@@ -2,4 +2,7 @@
 
 numb = float(input('Введите дробное число: '))
 numb = int(numb*10 % 10)
-print(numb)
+if numb > 0:
+    print(numb)
+else:
+    print('Нет')
